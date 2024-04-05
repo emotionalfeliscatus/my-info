@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+input, button, textarea, select {
+font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+#root, #__next {
+isolation: isolate;
+}
+
+body{
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FF8F8F;
+}
+
+#halftone{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+#teto{
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.info{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 143, 143, 0.8);
+    border-radius: 3rem;
+    padding: 3rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+li{
+    font-size: 1.5rem;
+}
+
+span{
+    -webkit-text-stroke: 0.25px black;
+}
+
+#header{
+    text-align: center;
+}
+
+#pronouns{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.75);
+}
